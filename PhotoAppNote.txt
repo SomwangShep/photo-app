@@ -1,3 +1,6 @@
 -rails new photo-app
 -rails generate controller welcome index
 in config/routes.rb change get 'welcome/index' to root 'welcome#index'
+
+heroku config:set STRIPE_TEST_SECRET_KEY=sk_test_nsJ9BZGUhaVqkcXohe0JOFKQ
+heroku config:set STRIPE_TEST_PUBLISHABLE_KEY=pk_test_gxKkHXyG7fDns0c5OYCSJGqK
